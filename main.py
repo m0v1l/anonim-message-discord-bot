@@ -14,9 +14,9 @@ async def on_ready():
 @bot.event
 async def on_message(message):
 
-    if message.channel.id == 943851439288119346:
+    if message.channel.id == #id channel where are you posting:
         otvet = message.content
-        channel = bot.get_channel(852590801971970059)
+        channel = bot.get_channel(#id channel where the message from the bot will be sent)
         await channel.send(otvet)
     else:
         pass
